@@ -75,7 +75,7 @@ Este repositório está organizado de forma a oferecer uma visão completa e apr
 
 Para evitar gastos diretos do orçamento ordinário da prefeitura, a implantação pode ser financiada através de:
 
-1.  **[FINEP - Chamadas Públicas](https://www.finep.gov.br/chamadas-publicas/chamadas-publicas):** Linhas não-reembolsáveis de fomento para infraestruturas de inovação pública e acessibilidade.
+1.  **[FINEP - Chamadas Públicas](https://www.finep.gov.br/oportunidades/):** Linhas não-reembolsáveis de fomento para infraestruturas de inovação pública e acessibilidade.
 2.  **[FAPESP - Políticas Públicas](https://fapesp.br/politicaspublicas):** Recursos para parcerias acadêmicas com universidades da região (como UNICAMP e IFSP) voltadas à melhoria de serviços públicos municipais.
 3.  **[BNDES - Fundo Social](https://www.bndes.gov.br/wps/portal/site/home/onde-atuamos/social):** Linha de apoio a projetos de inclusão de pessoas com deficiência e estruturação de centros assistivos.
 4.  **Emendas Parlamentares:** Captação de recursos estaduais e federais impositivos focados em Educação Especial.
