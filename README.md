@@ -87,5 +87,4 @@ Para evitar gastos diretos do orçamento ordinário da prefeitura, a implantaç�
 
 O projeto **Espaço Inova Vinhedo** está sob licença pública e incentiva a replicação por outros municípios. Este projeto foi escrito por **Diego Gonçalves** com assistência do **Gemini 3.5**, e encontra-se em fase de **construção coletiva**. Se você é gestor público, pesquisador ou cidadão interessado em contribuir, sinta-se à vontade para abrir uma issue ou propor melhorias em nossa documentação.
 
-**Prefeitura Municipal de Vinhedo/SP**
-*Secretaria Municipal de Educação | Secretaria Municipal de Desenvolvimento Econômico*
+**Vinhedo/SP**
