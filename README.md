@@ -67,6 +67,7 @@ Este repositório está organizado de forma a oferecer uma visão completa e apr
 *   🔍 **[Inventário de Validação de Dados](file:///Users/diegozolhos/Projects/ESPACO_INOVA_VINHEDO/buscar_dados.md):** Roteiro e checklist mapeando todos os dados estimados e estatísticas com a tag `[DADO_A_VALIDAR]`, com direcionamento de fontes reais de busca em Vinhedo.
 *   🛤️ **[Próximos Passos e Agentes](file:///Users/diegozolhos/Projects/ESPACO_INOVA_VINHEDO/proximos_passos.md):** Matriz de responsabilidades e cronograma político-administrativo urgente detalhando as obrigações práticas de secretários, prefeitos, deputados, empresários e vereadores.
 *   💻 **[Apresentação Executiva (Pitch Deck)](file:///Users/diegozolhos/Projects/ESPACO_INOVA_VINHEDO/index.html):** Slides interativos em HTML5/CSS3 animados projetados para apresentação direta a gestores públicos, traduzindo as análises técnicas para a linguagem de responsabilidade fiscal e impacto social.
+* **[CLIQUE AQUI PARA VER A APRESENTAÇÃO](https://zolhos.github.io/inova-proposta/)**
 *   🗺️ **[Roteiro de Implementação (Walkthrough)](file:///Users/diegozolhos/Projects/ESPACO_INOVA_VINHEDO/walkthrough.md):** Guia prático de apresentação governamental do projeto.
 
 ---
