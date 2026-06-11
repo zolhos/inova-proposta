@@ -1,6 +1,6 @@
 # Mapeamento Avançado de Personas e Jornadas (Service Blueprint) - Espaço Inova Vinhedo
 
-Este documento apresenta as trajetórias operacionais e pedagógicas do **Espaço Inova Vinhedo** estruturadas sob metodologias de **Service Blueprinting**, custeio **TDABC** (*Time-Driven Activity-Based Costing*) e escalas de validação clínica. As jornadas deixam de ser narrativas subjetivas para se tornarem fluxos de serviço auditáveis e financeiramente quantificados.
+Este documento apresenta as trajetórias operacionais e pedagógicas do **Espaço Inova Vinhedo** estruturadas sob metodologias de **Service Blueprinting**, custeio **TDABC** (*Time-Driven Activity-Based Costing*) e escalas de validação de autonomia pedagógica. As jornadas deixam de ser narrativas subjetivas para se tornarem fluxos de serviço auditáveis e financeiramente quantificados.
 
 ---
 
@@ -24,7 +24,7 @@ Este documento apresenta as trajetórias operacionais e pedagógicas do **Espaç
 
 Abaixo está o mapeamento detalhado das camadas de interação que compõem o serviço de fabricação digitalizada de tecnologia assistiva:
 
-| Camada do Blueprint | Etapa 1: Triagem e Agendamento | Etapa 2: Consulta & Codesign | Etapa 3: Engenharia e Fabricação | Etapa 4: Validação Pedagógica e Clínica |
+| Camada do Blueprint | Etapa 1: Triagem e Agendamento | Etapa 2: Consulta & Codesign | Etapa 3: Engenharia e Fabricação | Etapa 4: Validação Pedagógica e Autonomia |
 | :--- | :--- | :--- | :--- | :--- |
 | **Ações do Usuário (Ana/Lucas)** | Ana preenche a ficha do Lucas no portal de TI do Espaço. | Lucas e Ana chegam ao laboratório para consulta ergonômica. | Lucas e Ana aguardam o ciclo de modelagem e impressão inicial. | Lucas utiliza o adaptador em sala sob supervisão de Ana. |
 | **Ações de Frontstage (Equipe do Espaço)** | Agendamento automatizado enviado para o e-mail institucional de Ana. | Professor de AEE do Espaço entrevista Ana e realiza testes de preensão com Lucas. | Apresentação do modelo em tela 3D (codesign e aprovação do Lucas). | Equipe do Espaço entrega a peça final e aplica questionário de satisfação. |
@@ -50,16 +50,16 @@ Mapeamento do serviço de desenvolvimento ágil de software voltado à automaç�
 
 ---
 
-## 4. Protocolos de Validação Pedagógica e Clínica
+## 4. Protocolos de Validação Pedagógica e Autonomia Escolar
 
-A validação de eficácia da tecnologia assistiva produzida no Espaço Inova Vinhedo afasta critérios empíricos ou subjetivos, baseando-se em avaliações motoras e cognitivas estruturadas e integradas ao PEI (Plano de Ensino Individualizado):
+A validação de eficácia das ferramentas de apoio e dos kits pedagógicos fabricados no Espaço Inova Vinhedo foca no desenvolvimento pedagógico e na independência escolar do estudante, integrando-se diretamente ao PEI (Plano de Ensino Individualizado):
 
-### 4.1. Escalas de Função Motora Fina
-*   **QUEST (Quality of Upper Extremity Skills Test):** Avaliação aplicada antes da intervenção e 30 dias após a entrega do dispositivo assistivo. Mede a qualidade de movimento do membro superior, focando em dissociar movimentos, preensão e suporte de peso.
-*   **AHA (Assisting Hand Assessment):** Protocolo clínico utilizado para avaliar a eficiência do uso da mão afetada (em casos de paralisia cerebral hemiplégica) em tarefas bimanual. A meta do Espaço Inova é gerar aumento de no mínimo **15% [DADO_A_VALIDAR] na pontuação da escala AHA** em avaliações realizadas no intervalo de 90 dias pós-uso.
+### 4.1. Avaliação de Autonomia Pedagógica
+*   **Independência de Escrita e Desenho:** Avaliação mensal realizada pelo professor do AEE na sala comum. Monitora-se a necessidade de suporte humano (mediador) para o uso de lápis e canetas usando o adaptador ergonômico em comparação com o baseline inicial (meta: permitir que o aluno escreva de forma autônoma sem fadiga muscular precoce).
+*   **Tempo de Foco Ativo e Permanência na Tarefa:** Medição do tempo em que o estudante permanece focado na atividade utilizando o material de apoio pedagógico personalizado.
 
 ### 4.2. Monitoramento de Foco e Desempenho no PEI
-*   **Tempo de Foco Escolar Cronometrado:** Monitorado semanalmente em sala de aula regular pelo professor de AEE.
-    *   *Baseline (Antes):* Lucas abandona a escrita em **3 minutos [DADO_A_VALIDAR]** devido a tremores e dores musculares.
-    *   *Pós-Intervenção (Dispositivo Inova):* Escrita contínua sem dor registrada por **20 minutos [DADO_A_VALIDAR]**.
-*   **Taxa de Abandono da Atividade:** A porcentagem de vezes que o aluno rejeita realizar a atividade de escrita diminui (meta: de 80% de rejeição inicial para menos de 10% com o uso do adaptador personalizado TPU).
+*   **Tempo de Escrita/Atividade Contínua:** Monitorado em sala de aula regular.
+    *   *Baseline (Antes):* Lucas abandona a escrita em **3 minutos [DADO_A_VALIDAR]** devido à fadiga muscular decorrente da preensão inadequada.
+    *   *Pós-Intervenção (Adaptador Inova em TPU):* Escrita contínua confortável registrada por **20 minutos [DADO_A_VALIDAR]**.
+*   **Engajamento com Kits de Ciências e Matemática:** Registro qualitativo da participação ativa do aluno em experimentos práticos com os kits científicos móveis desenvolvidos (meta: inclusão total em atividades práticas de laboratório, com aproveitamento igual ou superior a 80% do conteúdo prático).

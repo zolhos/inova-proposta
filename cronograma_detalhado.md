@@ -37,7 +37,7 @@ Mapear as demandas reais de tecnologia assistiva nas salas de recursos multifunc
 *   **A.1.3:** Redigir o termo de referência técnica para a compra das máquinas e insumos do laboratório.
 
 ### 1.5. Entregáveis e Marcos (Milestones)
-*   📄 **Relatório de Mapeamento de Necessidades do AEE Vinhedo:** Documento contendo as principais demandas de TA e os perfis clínicos prioritários.
+*   📄 **Relatório de Mapeamento de Necessidades do AEE Vinhedo:** Documento contendo as principais demandas de apoio escolar e os perfis de demanda pedagógica priorizados.
 *   📄 **Laudo de Escolha e Adequação do Imóvel:** Estudo técnico de engenharia justificando a seleção do local físico e descrevendo as reformas elétricas necessárias.
 *   🚩 **Milestone 1:** Imóvel definido e Termo de Referência homologado para licitação.
 
@@ -56,7 +56,7 @@ Reforma física do espaço físico e aquisição/instalação de toda a infraest
 ### 2.3. Perguntas Cruciais a Serem Respondidas
 1.  *A tubulação de exaustão da cortadora a laser possui filtros de carvão ativo adequados para eliminar os odores de corte de acrílico e MDF, evitando reclamações da vizinhança ou poluição ambiental?*
 2.  *Os computadores licitados possuem placas de vídeo dedicada básicas homologadas para rodar programas de modelagem CAD sem lentidão?*
-3.  *O layout físico garante a separação estrita da "zona de sujeira" (laser e marcenaria manual) e da "zona limpa" (computadores, eletrônica e atendimento clínico de AEE)?*
+3.  *O layout físico garante a separação estrita da "zona de sujeira" (laser e marcenaria manual) e da "zona limpa" (computadores, eletrônica e atendimento pedagógico do AEE)?*
 
 ### 2.4. Atividades Detalhadas
 *   **A.2.1:** Executar a reforma física (pintura, piso tátil, bancadas reforçadas, instalação elétrica e de exaustor).
@@ -74,7 +74,7 @@ Reforma física do espaço físico e aquisição/instalação de toda a infraest
 ## 🎓 Fase 3: Capacitação da Equipe e Projeto Piloto (Mês 5 ao Mês 6)
 
 ### 3.1. Objetivo
-Treinar e certificar a equipe de 4 servidores públicos municipais e executar o projeto piloto de fabricação de tecnologia assistiva e o primeiro aplicativo web.
+Treinar e certificar a equipe de 4 servidores públicos municipais e executar o projeto piloto de fabricação de materiais didáticos/adaptadores e o primeiro aplicativo web.
 
 ### 3.2. Informações Necessárias para Execução (Inputs)
 *   Designações oficiais de RH dos 4 servidores que comporão a equipe de revezamento.
@@ -83,18 +83,18 @@ Treinar e certificar a equipe de 4 servidores públicos municipais e executar o 
 
 ### 3.3. Perguntas Cruciais a Serem Respondidas
 1.  *Os servidores designados atingiram a proficiência básica operacional necessária para operar a cortadora a laser de forma autônoma e segura?*
-2.  *Os protótipos em TPU flexível e MDF criados no piloto foram bem recebidos e validados pelos terapeutas e professores de AEE nas escolas piloto?*
+2.  *Os protótipos em TPU flexível e MDF criados no piloto foram bem recebidos e validados pelos professores de AEE nas escolas piloto?*
 3.  *O fluxo de sobreposição diária da equipe (12:30 às 17:00) está funcionando com sinergia produtiva?*
 
 ### 3.4. Atividades Detalhadas
 *   **A.3.1:** Executar a trilha de capacitação prática dos servidores (40 horas de treinamento em modelagem 3D, corte laser, Arduino e governança LGPD).
-*   **A.3.2:** Desenvolver e testar o codesign de 10 dispositivos assistivos personalizados (piloto).
+*   **A.3.2:** Desenvolver e testar o codesign de 10 adaptadores e materiais pedagógicos personalizados (piloto).
 *   **A.3.3:** Desenvolver e homologar o primeiro aplicativo local de TI municipal (painel de agendamento do AEE).
 *   **A.3.4:** Colher assinaturas dos Termos de Consentimento (TCLE) dos responsáveis dos alunos do piloto.
 
 ### 3.5. Entregáveis e Marcos (Milestones)
 *   📜 **Certificados de Capacitação Técnica Maker:** Comprovação da formação operacional dos servidores designados.
-*   ♿ **Lote Piloto de Tecnologias Assistivas Homologadas:** Entrega de 10 dispositivos nas escolas parceiras com relatórios clínicos de evolução inicial (QUEST/AHA).
+*   🎒 **Lote Piloto de Materiais Didáticos e Adaptadores Homologados:** Entrega de 10 conjuntos/kits nas escolas parceiras com relatórios de satisfação e autonomia pedagógica inicial.
 *   💻 **Web App de Agendamento do AEE (Versão 1.0):** Aplicativo implantado em ambiente seguro de produção do município.
 *   🚩 **Milestone 3:** Piloto concluído e homologado em ambiente escolar; equipe capacitada.
 

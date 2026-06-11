@@ -38,6 +38,6 @@ Qualquer política pública inovadora enfrenta desafios de sustentabilidade ao l
 
 *   **O Cenário de Risco (Ataque):** Professores de Educação Especial da rede municipal, sobrecarregados em suas rotinas de sala de aula comum, resistem a encaminhar casos ao laboratório ou a usar os recursos de tecnologia assistiva desenvolvidos por acharem o manuseio complexo ou desnecessário.
 *   **Estratégia de Mitigação (Blindagem):**
-    *   **Metodologia de Codesign Participativo:** Jamais entregar um recurso pedagógico "pronto" sem a participação do docente. O professor de AEE deve participar do desenho e teste da peça, garantindo que o material atenda à sua real necessidade clínica e didática.
+    *   **Metodologia de Codesign Participativo:** Jamais entregar um recurso pedagógico "pronto" sem a participação do docente. O professor de AEE deve participar do desenho e teste da peça, garantindo que o material atenda à sua real necessidade pedagógica e de acessibilidade.
     *   **Desmistificação da Tecnologia:** Realizar as capacitações iniciais focadas em ferramentas analógicas e fabricação manual de baixo custo (papelão, velcro e EVA), introduzindo a impressão 3D e o laser gradualmente como facilitadores e não como complicadores.
     *   **Exposição e Validação Pública:** Promover uma feira anual municipal de Inovação Pedagógica em Vinhedo, expondo os trabalhos desenvolvidos e premiando os projetos de maior destaque de alunos e professores, gerando senso de pertencimento e valorização da categoria docente.

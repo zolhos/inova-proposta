@@ -42,7 +42,7 @@ O custeio anual do laboratório (excluindo folha de pagamento da equipe fixa, de
 | Categoria | Descrição | Consumo Mensal Est. | Custo Anual Est. |
 | :--- | :--- | :---: | :---: |
 | **Filamentos de Impressão 3D** | PLA, PETG, TPU (Flexível) - Média de 10 carretéis/mês. | R$ 1.200,00 | R$ 14.400,00 |
-| **Resina para Impressão 3D** | Resina padrão e resina flexível (para órteses/tecnologia assistiva). | R$ 400,00 | R$ 4.800,00 |
+| **Resina para Impressão 3D** | Resina padrão e resina flexível (para adaptadores pedagógicos e de escrita). | R$ 400,00 | R$ 4.800,00 |
 | **Chapas de MDF e Acrílico** | Chapas de MDF (3mm e 6mm) e acrílico cast (coloridos e transparentes) para corte a laser. | R$ 1.500,00 | R$ 18.000,00 |
 | **Componentes de Eletrônica** | Reposição de sensores, fios, pilhas, soldas estanho, placas de circuito impresso. | R$ 500,00 | R$ 6.000,00 |
 | **Manutenção Corretiva** | Reposição de bicos de impressora, tubos laser CO2 (vida útil média de 2.500 horas), correias e filtros. | - | R$ 10.000,00 |

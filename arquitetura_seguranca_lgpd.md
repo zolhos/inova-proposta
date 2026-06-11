@@ -45,7 +45,7 @@ O tratamento de dados de menores no laboratório exige salvaguardas que formaliz
 
 ### 3.1. Termo de Consentimento Livre e Esclarecido (TCLE) - AEE
 Antes do ingresso do aluno do AEE nas atividades de codesign ou de oficinas de média/longa duração no Espaço Inova, os pais ou responsáveis legais devem assinar um TCLE físico ou digital contendo:
-*   Finalidade específica do tratamento (ex.: *desenvolvimento e fabricação sob medida de órtese de punho*).
+*   Finalidade específica do tratamento (ex.: *desenvolvimento e fabricação sob medida de adaptador ergonômico de escrita*).
 *   Detalhes de quais dados de saúde serão necessários no processo (laudos, moldagens físicas da mão).
 *   Garantia do direito de exclusão e revogação do consentimento a qualquer momento, sem prejuízo ao atendimento pedagógico do aluno na rede regular.
 

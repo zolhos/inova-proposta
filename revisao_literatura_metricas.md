@@ -13,7 +13,7 @@ A integração de laboratórios de fabricação digital (*FabLabs*) e da *cultur
 *   **Eficiência de Custos:** A literatura aponta que a fabricação descentralizada reduz a dependência de cadeias de suprimentos globais e burocráticas, viabilizando soluções personalizadas em frações do tempo e custo dos canais tradicionais de compras governamentais.
 
 ### 1.2. Fabricação Digital no Atendimento Educacional Especializado (AEE)
-*   **A Personalização da Tecnologia Assistiva:** Equipamentos comerciais de tecnologia assistiva (órteses, teclados adaptados, ponteiras de digitação, pranchas táteis) são padronizados e de alto custo. A literatura científica recente (IFRS, UFRGS e UNICAMP) destaca que a padronização é uma barreira no AEE, uma vez que as necessidades de cada estudante com deficiência ou neurodivergência são únicas.
+*   **A Personalização da Tecnologia Assistiva:** Equipamentos comerciais de tecnologia assistiva (adaptadores ergonômicos escolares, teclados adaptados, ponteiras de digitação, pranchas táteis) são padronizados e de alto custo. A literatura científica recente (IFRS, UFRGS e UNICAMP) destaca que a padronização é uma barreira no AEE, uma vez que as necessidades de cada estudante com deficiência ou neurodivergência são únicas.
 *   **O Conceito de Codesign Inclusivo:** A pesquisa acadêmica ressalta que o sucesso de um dispositivo maker de tecnologia assistiva está no design participativo ou codesign. O processo ocorre quando o professor de AEE, o designer/projetista e o próprio aluno codesenham a solução. As impressoras 3D permitem iterações rápidas: caso uma peça de encaixe não se adapte à mão do estudante com paralisia cerebral, ela é remodelada e reimpressa no mesmo dia com ajustes milimétricos, algo inviável em processos industriais tradicionais.
 *   **Materiais Didáticos Táteis:** O uso de cortadoras a laser e impressoras 3D para a criação de mapas táteis, quebra-cabeças com texturas e modelos biológicos tridimensionais (para alunos com deficiência visual) é amplamente elogiado pela literatura pedagógica, acelerando o aprendizado de conceitos abstratos de forma multissensorial.
 
@@ -57,11 +57,11 @@ Para monitorar e avaliar a eficácia do Espaço Inova Vinhedo como política pú
 Para evitar que o Espaço Inova Vinhedo seja avaliado puramente como um centro produtivo de baixo custo ("fábrica barata de materiais"), a eficácia do projeto é atrelada à melhoria pedagógica e à evolução social do estudante:
 
 *   **Índice de Evolução no PEI (Plano de Ensino Individualizado):**
-    *   *Mecanismo:* A eficácia do dispositivo maker de tecnologia assistiva entregue (órtese, adaptador, jogo sensorial) deve ser inserida formalmente na avaliação trimestral e semestral do PEI do estudante.
+    *   *Mecanismo:* A eficácia do dispositivo maker ou recurso didático adaptado entregue (adaptador de escrita, jogo sensorial, recurso pedagógico) deve ser inserida formalmente na avaliação trimestral e semestral do PEI do estudante.
     *   *KPI:* Porcentagem de alunos assistidos que apresentaram evolução qualitativa de notas, engajamento e cumprimento das metas individuais de desenvolvimento estabelecidas no PEI 90 dias após a entrega da solução assistiva.
 *   **Melhoria na Frequência e Redução de Evasão Escolar (AEE):**
     *   *Mecanismo:* Cruzamento de dados de frequência escolar geral com o período de uso da tecnologia assistiva customizada.
-    *   *KPI:* Taxa de redução de faltas e estabilização de abandono escolar no grupo de estudantes que receberam órteses, teclados adaptados ou kits de alfabetização fonética tátil produzidos pelo laboratório (meta: reduzir a evasão de alunos PCD/TEA a zero na rede municipal de Vinhedo).
+    *   *KPI:* Taxa de redução de faltas e estabilização de abandono escolar no grupo de estudantes que receberam adaptadores ergonômicos, teclados adaptados, kits didáticos de ciências ou kits de alfabetização fonética tátil produzidos pelo laboratório (meta: reduzir a evasão de alunos PCD/TEA a zero na rede municipal de Vinhedo).
 *   **Ganho de Independência Extraclasse (NPS Familiar):**
     *   *Mecanismo:* Aplicação de questionário semestral qualitativo com os pais e responsáveis do aluno para mensurar a transposição da autonomia escolar para o ambiente doméstico.
     *   *KPI:* Índice de melhora relatada pela família em tarefas de vida diária (comer sem auxílio usando talher adaptado no laboratório, escovar os dentes, escrever/desenhar autonomamente em casa). Meta: NPS das famílias superior a 85 pontos.

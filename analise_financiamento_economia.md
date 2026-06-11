@@ -12,7 +12,7 @@ Para mitigar o uso de recursos próprios do tesouro municipal no investimento in
 *   **[FINEP (Financiadora de Estudos e Projetos)](https://www.finep.gov.br/oportunidades/):** A FINEP lança regularmente chamadas públicas voltadas para inovação social, acessibilidade e tecnologia assistiva nas secretarias públicas. O projeto do Espaço Inova Vinhedo enquadra-se perfeitamente nas linhas de crédito não-reembolsáveis voltadas a Instituições Científicas e Tecnológicas (ICTs) e órgãos governamentais.
 *   **[FAPESP (Fundação de Amparo à Pesquisa do Estado de São Paulo)](https://fapesp.br/politicaspublicas):**
     *   **Programa de Pesquisa em Políticas Públicas (PPPP):** Fomenta a cooperação entre o setor público municipal do Estado de São Paulo e centros universitários (como a UNICAMP e o IFSP Campinas). Financia a aquisição de equipamentos e custeio de bolsas para pesquisadores que desenvolvam projetos de aplicação direta nas demandas do AEE local.
-*   **[BNDES Fundo Social](https://www.bndes.gov.br/wps/portal/site/home/onde-atuamos/social):** O Banco Nacional de Desenvolvimento Econômico e Social dispõe de linhas de investimento social não-reembolsáveis destinadas a projetos de inclusão social, saúde e educação especial pública, adequando-se ao plano de expansão de fabricação de órteses.
+*   **[BNDES Fundo Social](https://www.bndes.gov.br/wps/portal/site/home/onde-atuamos/social):** O Banco Nacional de Desenvolvimento Econômico e Social dispõe de linhas de investimento social não-reembolsáveis destinadas a projetos de inclusão social, saúde e educação especial pública, adequando-se ao plano de fabricação de materiais didáticos e recursos de apoio escolar.
 
 ### 1.2. Parcerias Institucionais e Emendas Parlamentares
 *   **[SEBRAE-SP](https://sebrae.com.br/sites/PortalSebrae/ufs/sp?codUf=26):** O Serviço de Apoio às Micro e Pequenas Empresas em São Paulo, por meio de editais como o *SEBRAETec*, pode coinvestir em consultorias de metodologias ativas, treinamento de servidores do espaço e no desenvolvimento de novos negócios de impacto social a partir do laboratório.
@@ -60,7 +60,7 @@ Os materiais voltados para o Atendimento Educacional Especializado são historic
 | **Adaptador de Escrita Anatômico (TPU)** | R$ 65,00 [DADO_A_VALIDAR] | R$ 3,50 [DADO_A_VALIDAR] | R$ 61,50 [DADO_A_VALIDAR] | 94,6% |
 | **Tabuleiro de Comunicação Alternativa (MDF)** | R$ 350,00 [DADO_A_VALIDAR] | R$ 25,00 [DADO_A_VALIDAR] | R$ 325,00 [DADO_A_VALIDAR] | 92,8% |
 | **Guia de Leitura para Dislexia/Baixa Visão** | R$ 45,00 [DADO_A_VALIDAR] | R$ 2,00 [DADO_A_VALIDAR] | R$ 43,00 [DADO_A_VALIDAR] | 95,5% |
-| **Órtese de Posicionamento de Punho (PETG)** | R$ 280,00 [DADO_A_VALIDAR] | R$ 18,00 [DADO_A_VALIDAR] | R$ 262,00 [DADO_A_VALIDAR] | 93,5% |
+| **Kit Didático de Física/Polias (MDF/3D)** | R$ 450,00 [DADO_A_VALIDAR] | R$ 35,00 [DADO_A_VALIDAR] | R$ 415,00 [DADO_A_VALIDAR] | 92,2% |
 | **Maquete Rel relevo/Tátil para Cegos (MDF/3D)** | R$ 1.200,00 [DADO_A_VALIDAR] | R$ 80,00 [DADO_A_VALIDAR] | R$ 1.120,00 [DADO_A_VALIDAR] | 93,3% |
 | **Teclado com Colmeia Acrílica Adaptada** | R$ 480,00 [DADO_A_VALIDAR] | R$ 45,00 [DADO_A_VALIDAR] | R$ 435,00 [DADO_A_VALIDAR] | 90,6% |
 
