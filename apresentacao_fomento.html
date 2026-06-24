@@ -1307,6 +1307,10 @@
           Próximo
           <span class="material-symbols-rounded" style="font-size: 1.1rem;">chevron_right</span>
         </button>
+        <button class="btn-nav" id="btnFullscreen" title="Alternar Tela Cheia">
+          <span class="material-symbols-rounded" style="font-size: 1.1rem;" id="fsIcon">fullscreen</span>
+          <span id="fsText">Tela Cheia</span>
+        </button>
       </div>
     </div>
   </footer>
@@ -1319,6 +1323,9 @@
       const btnNext = document.getElementById('btnNext');
       const slideIndicator = document.getElementById('slideIndicator');
       const progressBar = document.getElementById('progressBar');
+      const btnFullscreen = document.getElementById('btnFullscreen');
+      const fsIcon = document.getElementById('fsIcon');
+      const fsText = document.getElementById('fsText');
       let currentSlideIndex = 0;
  
       function updateSlide(index) {
@@ -1395,6 +1402,31 @@
           document.getElementById(`pane-${tier}`).classList.add('active');
         });
       });
+
+      // Lógica de Tela Cheia
+      function toggleFullscreen() {
+        if (!document.fullscreenElement) {
+          document.documentElement.requestFullscreen().catch(err => {
+            console.error(`Erro ao ativar tela cheia: ${err.message}`);
+          });
+        } else {
+          document.exitFullscreen();
+        }
+      }
+
+      btnFullscreen.addEventListener('click', toggleFullscreen);
+
+      function updateFullscreenUI() {
+        if (document.fullscreenElement) {
+          fsIcon.textContent = 'fullscreen_exit';
+          fsText.textContent = 'Sair';
+        } else {
+          fsIcon.textContent = 'fullscreen';
+          fsText.textContent = 'Tela Cheia';
+        }
+      }
+
+      document.addEventListener('fullscreenchange', updateFullscreenUI);
 
       // Inicialização da Barra de Progresso
       updateSlide(0);
