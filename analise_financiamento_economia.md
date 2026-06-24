@@ -39,35 +39,35 @@ Ao utilizar o programador/técnico de TI alocado no laboratório (dentro da jorn
 │ MODELO TRADICIONAL (LICITAÇÃO/TERCEIRO)  │ MODELO INOVA VINHEDO (INTERNO)   │
 ├──────────────────────────────────────────┼─────────────────────────────────┤
 │ Custo Processual da Licitação:           │ Custo Processual: R$ 0,00       │
-│ R$ 15.000,00 [DADO_A_VALIDAR]            │ (sem burocracia)                │
+│ R$ 15.000,00            │ (sem burocracia)                │
 ├──────────────────────────────────────────┼─────────────────────────────────┤
 │ Custo de Aquisição/Customização:         │ Custo de Desenvolvimento:       │
 │ R$ 45.000,00 a R$ 120.000,00             │ R$ 0,00 (RH próprio alocado)    │
-│ [DADO_A_VALIDAR]                         │                                 │
+│                         │                                 │
 ├──────────────────────────────────────────┼─────────────────────────────────┤
 │ Tempo de Espera: 6 a 12 meses            │ Tempo de Entrega: 2 a 4 semanas │
 ├──────────────────────────────────────────┼─────────────────────────────────┤
 │ Adaptação de Requisitos: Rígida          │ Adaptação: Ágil e contínua      │
 └──────────────────────────────────────────┴─────────────────────────────────┘
 ```
-**Economia Anual Estimada (com apenas 3 aplicativos internos desenvolvidos):** **R$ 135.000,00 a R$ 360.000,00 [DADO_A_VALIDAR]** em contratos de licitação evitados.
+**Economia Anual Estimada (com apenas 3 aplicativos internos desenvolvidos):** **R$ 135.000,00 a R$ 360.000,00** em contratos de licitação evitados.
 
 ### 2.2. Economia 2: Fabricação Local de Materiais e Tecnologias Assistivas do AEE
 Os materiais voltados para o Atendimento Educacional Especializado são historicamente caros devido ao mercado nichado e de baixa escala de produção das empresas privadas especializadas. A tabela abaixo compara a aquisição no varejo especializado versus a fabricação digital sob demanda no Espaço Inova:
 
 | Dispositivo de Tecnologia Assistiva / Pedagógico | Custo Médio no Mercado | Custo de Insumo Inova (MDF/PLA/Resina) | Economia Unitária R$ | Economia % |
 | :--- | :---: | :---: | :---: | :---: |
-| **Adaptador de Escrita Anatômico (TPU)** | R$ 65,00 [DADO_A_VALIDAR] | R$ 3,50 [DADO_A_VALIDAR] | R$ 61,50 [DADO_A_VALIDAR] | 94,6% |
-| **Tabuleiro de Comunicação Alternativa (MDF)** | R$ 350,00 [DADO_A_VALIDAR] | R$ 25,00 [DADO_A_VALIDAR] | R$ 325,00 [DADO_A_VALIDAR] | 92,8% |
-| **Guia de Leitura para Dislexia/Baixa Visão** | R$ 45,00 [DADO_A_VALIDAR] | R$ 2,00 [DADO_A_VALIDAR] | R$ 43,00 [DADO_A_VALIDAR] | 95,5% |
-| **Kit Didático de Física/Polias (MDF/3D)** | R$ 450,00 [DADO_A_VALIDAR] | R$ 35,00 [DADO_A_VALIDAR] | R$ 415,00 [DADO_A_VALIDAR] | 92,2% |
-| **Maquete Rel relevo/Tátil para Cegos (MDF/3D)** | R$ 1.200,00 [DADO_A_VALIDAR] | R$ 80,00 [DADO_A_VALIDAR] | R$ 1.120,00 [DADO_A_VALIDAR] | 93,3% |
-| **Teclado com Colmeia Acrílica Adaptada** | R$ 480,00 [DADO_A_VALIDAR] | R$ 45,00 [DADO_A_VALIDAR] | R$ 435,00 [DADO_A_VALIDAR] | 90,6% |
+| **Adaptador de Escrita Anatômico (TPU)** | R$ 65,00 | R$ 3,50 | R$ 61,50 | 94,6% |
+| **Tabuleiro de Comunicação Alternativa (MDF)** | R$ 350,00 | R$ 25,00 | R$ 325,00 | 92,8% |
+| **Guia de Leitura para Dislexia/Baixa Visão** | R$ 45,00 | R$ 2,00 | R$ 43,00 | 95,5% |
+| **Kit Didático de Física/Polias (MDF/3D)** | R$ 450,00 | R$ 35,00 | R$ 415,00 | 92,2% |
+| **Maquete Rel relevo/Tátil para Cegos (MDF/3D)** | R$ 1.200,00 | R$ 80,00 | R$ 1.120,00 | 93,3% |
+| **Teclado com Colmeia Acrílica Adaptada** | R$ 480,00 | R$ 45,00 | R$ 435,00 | 90,6% |
 
-**Projeção de Escala:** Se a rede municipal de Vinhedo demandar a confecção de 300 [DADO_A_VALIDAR] dispositivos assistivos diversos por ano para suprir as salas de recursos multifuncionais do AEE:
-*   *Custo estimado de compra no mercado especializado:* R$ 120.000,00 [DADO_A_VALIDAR]
-*   *Custo estimado de fabricação própria (insumos):* R$ 8.500,00 [DADO_A_VALIDAR]
-*   **Economia Direta Anual em Materiais Pedagógicos: R$ 111.500,00 [DADO_A_VALIDAR]**
+**Projeção de Escala:** Se a rede municipal de Vinhedo demandar a confecção de 300 dispositivos assistivos diversos por ano para suprir as salas de recursos multifuncionais do AEE:
+*   *Custo estimado de compra no mercado especializado:* R$ 120.000,00
+*   *Custo estimado de fabricação própria (insumos):* R$ 8.500,00
+*   **Economia Direta Anual em Materiais Pedagógicos: R$ 111.500,00**
 
 ---
 
@@ -76,14 +76,14 @@ Os materiais voltados para o Atendimento Educacional Especializado são historic
 Para demonstrar a viabilidade econômica do Espaço Inova Vinhedo frente à sua chefia e ao Controle Interno municipal, apresenta-se o fluxo de retorno financeiro estimado:
 
 *   **Custos de Implantação e Custeio no Ano 1:**
-    *   CAPEX (Equipamentos e TI): R$ 129.100,00 [DADO_A_VALIDAR] (podendo ser custeado por emenda ou fomento)
-    *   OPEX (Insumos e Manutenção): R$ 62.800,00 [DADO_A_VALIDAR]
-    *   *Total de Desembolso Financeiro incremental (excluindo folha de servidores já existentes):* **R$ 191.900,00 [DADO_A_VALIDAR]**
+    *   CAPEX (Equipamentos e TI): R$ 129.100,00 (podendo ser custeado por emenda ou fomento)
+    *   OPEX (Insumos e Manutenção): R$ 62.800,00
+    *   *Total de Desembolso Financeiro incremental (excluindo folha de servidores já existentes):* **R$ 191.900,00**
 *   **Retorno Financeiro Estimado no Ano 1 (Evitação de Custos/Despesas):**
-    *   Economia com desenvolvimento ágil de 3 pequenos softwares municipais: ~R$ 180.000,00 [DADO_A_VALIDAR]
-    *   Economia na fabricação própria de 300 insumos e dispositivos de AEE: ~R$ 111.500,00 [DADO_A_VALIDAR]
-    *   *Total de Economia para a Prefeitura:* **R$ 291.500,00 [DADO_A_VALIDAR]**
+    *   Economia com desenvolvimento ágil de 3 pequenos softwares municipais: ~R$ 180.000,00
+    *   Economia na fabricação própria de 300 insumos e dispositivos de AEE: ~R$ 111.500,00
+    *   *Total de Economia para a Prefeitura:* **R$ 291.500,00**
 
-### **Saldo Líquido de Retorno no Ano 1: + R$ 99.600,00 [DADO_A_VALIDAR]** (Payback no primeiro ano de funcionamento)
+### **Saldo Líquido de Retorno no Ano 1: + R$ 99.600,00** (Payback no primeiro ano de funcionamento)
 
-A partir do **Ano 2**, sem a necessidade do CAPEX inicial, o custo operacional de R$ 62.800,00 [DADO_A_VALIDAR] gera um retorno recorrente em economia superior a **R$ 250.000,00 [DADO_A_VALIDAR] anuais**, provando que o projeto não é apenas uma política de alto impacto social, mas também uma decisão de **alta responsabilidade e eficiência fiscal**.
+A partir do **Ano 2**, sem a necessidade do CAPEX inicial, o custo operacional de R$ 62.800,00 gera um retorno recorrente em economia superior a **R$ 250.000,00 anuais**, provando que o projeto não é apenas uma política de alto impacto social, mas também uma decisão de **alta responsabilidade e eficiência fiscal**.

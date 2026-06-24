@@ -1,0 +1,1404 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Espaço Inova Vinhedo - Fomento e Legado</title>
+  
+  <!-- Fontes Premium -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Ícones Google -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  
+  <style>
+    :root {
+      /* Cores HSL - Paleta de Prestígio (Indigo/Violeta Base) */
+      --hue: 245;
+      --bg-dark: hsl(var(--hue), 24%, 6%);
+      --bg-card: hsla(var(--hue), 25%, 12%, 0.45);
+      --accent: hsl(var(--hue), 90%, 65%);
+      --accent-glow: hsla(var(--hue), 90%, 65%, 0.15);
+      --accent-gradient: linear-gradient(135deg, hsl(260, 95%, 68%) 0%, hsl(240, 85%, 60%) 100%);
+      
+      --text-main: hsl(var(--hue), 10%, 98%);
+      --text-secondary: hsl(var(--hue), 12%, 80%);
+      --text-muted: hsl(var(--hue), 10%, 62%);
+      --text-dark: hsl(var(--hue), 10%, 45%);
+      
+      /* Glassmorphism Tokens */
+      --glass-blur: blur(20px) saturate(180%);
+      --glass-border: 1px solid hsla(var(--hue), 100%, 100%, 0.1);
+      --glass-border-hover: 1px solid hsla(var(--hue), 100%, 100%, 0.25);
+      --card-shadow: 0 12px 40px -10px rgba(0, 0, 0, 0.5);
+      
+      /* Cores de Destaque */
+      --color-gold: #fbbf24;
+      --color-teal: #06b6d4;
+      --color-rose: #f43f5e;
+      --color-green: #10b981;
+      
+      --font-title: 'Outfit', 'Inter', sans-serif;
+      --font-body: 'Inter', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: var(--bg-dark);
+      color: var(--text-main);
+      font-family: var(--font-body);
+      min-height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    /* Background Dinâmico - Blobs Orgânicos Flutuantes */
+    .blob-container {
+      position: fixed;
+      width: 100vw;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      z-index: 0;
+      pointer-events: none;
+      overflow: hidden;
+    }
+
+    .blob {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(100px);
+      opacity: 0.16;
+      mix-blend-mode: screen;
+      animation: floating 25s infinite alternate ease-in-out;
+    }
+
+    .blob-1 {
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, hsl(250, 90%, 65%) 0%, rgba(99, 102, 241, 0) 70%);
+      top: -15%;
+      right: 5%;
+      animation-duration: 22s;
+    }
+
+    .blob-2 {
+      width: 700px;
+      height: 700px;
+      background: radial-gradient(circle, hsl(320, 85%, 60%) 0%, rgba(236, 72, 153, 0) 70%);
+      bottom: -20%;
+      left: 5%;
+      animation-duration: 32s;
+    }
+
+    .blob-3 {
+      width: 450px;
+      height: 450px;
+      background: radial-gradient(circle, hsl(180, 85%, 50%) 0%, rgba(6, 182, 212, 0) 70%);
+      top: 35%;
+      left: 40%;
+      animation-duration: 18s;
+    }
+
+    @keyframes floating {
+      0% { transform: translate(0px, 0px) scale(1) rotate(0deg); }
+      33% { transform: translate(50px, -80px) scale(1.1) rotate(120deg); }
+      66% { transform: translate(-30px, 40px) scale(0.9) rotate(240deg); }
+      100% { transform: translate(0px, 0px) scale(1) rotate(360deg); }
+    }
+
+    .bg-grid {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: radial-gradient(hsla(var(--hue), 80%, 80%, 0.015) 1.5px, transparent 1.5px);
+      background-size: 40px 40px;
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    /* Estrutura Principal */
+    header {
+      width: 100%;
+      padding: 1.25rem 2.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: var(--glass-border);
+      background: rgba(11, 13, 23, 0.35);
+      backdrop-filter: var(--glass-blur);
+      z-index: 10;
+    }
+
+    .header-logo {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-family: var(--font-title);
+      font-weight: 700;
+      font-size: 1.2rem;
+      letter-spacing: -0.02em;
+    }
+
+    .header-logo span {
+      background: var(--accent-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .header-logo .material-symbols-rounded {
+      font-size: 1.75rem;
+      color: var(--accent);
+    }
+
+    .header-badge {
+      background: hsla(var(--hue), 80%, 65%, 0.15);
+      border: 1px solid hsla(var(--hue), 80%, 65%, 0.3);
+      padding: 0.35rem 0.85rem;
+      border-radius: 99px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #a5b4fc;
+    }
+
+    .main-wrapper {
+      flex: 1;
+      display: flex;
+      position: relative;
+      z-index: 5;
+      overflow: hidden;
+    }
+
+    /* Menu Lateral */
+    .sidebar-nav {
+      width: 280px;
+      padding: 2rem 1.5rem;
+      background: rgba(11, 13, 23, 0.25);
+      border-right: var(--glass-border);
+      backdrop-filter: var(--glass-blur);
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      overflow-y: auto;
+    }
+
+    .sidebar-title {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--text-dark);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.75rem;
+      padding-left: 0.75rem;
+    }
+
+    .nav-item {
+      width: 100%;
+      background: transparent;
+      border: 1px solid transparent;
+      color: var(--text-muted);
+      padding: 0.75rem 1rem;
+      border-radius: 12px;
+      text-align: left;
+      font-family: var(--font-body);
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .nav-item:hover {
+      background: rgba(255, 255, 255, 0.02);
+      color: var(--text-main);
+    }
+
+    .nav-item.active {
+      background: hsla(var(--hue), 30%, 16%, 0.45);
+      border: var(--glass-border);
+      color: var(--text-main);
+      box-shadow: 0 4px 15px -5px rgba(0, 0, 0, 0.2);
+    }
+
+    .nav-num {
+      font-family: var(--font-title);
+      font-size: 0.8rem;
+      font-weight: 600;
+      opacity: 0.5;
+    }
+
+    /* Container de Slides */
+    .presentation-container {
+      flex: 1;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2.5rem;
+    }
+
+    .slide {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      max-width: 1100px;
+      max-height: 600px;
+      background: var(--bg-card);
+      border: var(--glass-border);
+      backdrop-filter: var(--glass-blur);
+      border-radius: 24px;
+      box-shadow: var(--card-shadow);
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      opacity: 0;
+      transform: translateY(20px) scale(0.98);
+      pointer-events: none;
+      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      z-index: 1;
+    }
+
+    .slide.active {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+      pointer-events: auto;
+      z-index: 2;
+    }
+
+    /* Layouts e Elementos dos Slides */
+    .slide-header {
+      margin-bottom: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .slide-category {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .slide-title {
+      font-family: var(--font-title);
+      font-weight: 700;
+      font-size: 2.2rem;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+    }
+
+    .slide-body {
+      flex: 1;
+      display: flex;
+      gap: 3rem;
+      overflow: hidden;
+    }
+
+    .text-column {
+      flex: 1.2;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .visual-column {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .main-text {
+      font-size: 1.05rem;
+      line-height: 1.6;
+      color: var(--text-secondary);
+      font-weight: 400;
+    }
+
+    /* Lista de Tópicos Objetivos */
+    .bullet-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .bullet-item {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+
+    .bullet-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.03);
+      border: var(--glass-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--accent);
+      flex-shrink: 0;
+    }
+
+    .bullet-content h4 {
+      font-family: var(--font-title);
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 0.25rem;
+    }
+
+    .bullet-content p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.45;
+    }
+
+    /* Cards de Impacto Visual Rápido */
+    .glass-card {
+      background: rgba(255, 255, 255, 0.015);
+      border: var(--glass-border);
+      border-radius: 16px;
+      padding: 1.75rem;
+      width: 100%;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .glass-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(255, 255, 255, 0.2);
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    /* Capa Layout */
+    .cover-layout {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      gap: 3rem;
+    }
+
+    .cover-text {
+      flex: 1.2;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .cover-badge {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #818cf8;
+      align-self: flex-start;
+    }
+
+    .cover-title {
+      font-family: var(--font-title);
+      font-size: 3.2rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      background: linear-gradient(135deg, #fff 30%, #a5b4fc 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .cover-desc {
+      font-size: 1.2rem;
+      line-height: 1.5;
+      color: var(--text-secondary);
+      font-weight: 400;
+    }
+
+    .cover-visual {
+      flex: 1;
+      position: relative;
+    }
+
+    .circle-glow {
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+    }
+
+    .cover-img-box {
+      width: 100%;
+      height: 280px;
+      border-radius: 20px;
+      border: var(--glass-border);
+      background: rgba(255, 255, 255, 0.02);
+      backdrop-filter: var(--glass-blur);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      z-index: 2;
+      overflow: hidden;
+    }
+
+    .cover-img-box img {
+      width: 90%;
+      height: auto;
+      opacity: 0.85;
+    }
+
+    /* Grid de Soluções e Impacto (Métricas Reais de Vinhedo) */
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.25rem;
+      width: 100%;
+    }
+
+    .metric-box {
+      background: rgba(255, 255, 255, 0.015);
+      border: var(--glass-border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.25rem;
+    }
+
+    .metric-val {
+      font-family: var(--font-title);
+      font-size: 2.5rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #fff 0%, var(--accent) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 1;
+    }
+
+    .metric-label {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      font-weight: 500;
+    }
+
+    .metric-sub {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+    }
+
+    /* Tabs Interativas - Tiers de Fomento */
+    .tabs-container {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      width: 100%;
+      height: 100%;
+    }
+
+    .tab-buttons {
+      display: flex;
+      gap: 0.75rem;
+      background: rgba(0, 0, 0, 0.2);
+      padding: 0.35rem;
+      border-radius: 14px;
+      border: var(--glass-border);
+    }
+
+    .tab-btn {
+      flex: 1;
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 0.65rem 1rem;
+      border-radius: 10px;
+      font-family: var(--font-body);
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      transition: all 0.2s ease;
+    }
+
+    .tab-btn.active {
+      background: var(--accent-gradient);
+      color: #fff;
+      box-shadow: 0 4px 15px -3px rgba(99, 102, 241, 0.4);
+    }
+
+    .tab-content-wrapper {
+      flex: 1;
+      position: relative;
+    }
+
+    .tab-pane {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transform: scale(0.97);
+      pointer-events: none;
+      transition: all 0.3s ease;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .tab-pane.active {
+      opacity: 1;
+      transform: scale(1);
+      pointer-events: auto;
+    }
+
+    .tier-card {
+      flex: 1.2;
+      background: rgba(255, 255, 255, 0.02);
+      border: var(--glass-border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .tier-details-card {
+      flex: 1;
+      background: hsla(var(--hue), 30%, 16%, 0.25);
+      border: var(--glass-border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0.75rem;
+      text-align: center;
+    }
+
+    .tier-price {
+      font-family: var(--font-title);
+      font-weight: 800;
+      font-size: 2.2rem;
+      color: var(--color-gold);
+    }
+
+    .tier-benefits {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .tier-benefits li {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .tier-benefits li .material-symbols-rounded {
+      color: var(--color-green);
+      font-size: 1.1rem;
+    }
+
+    /* Rodapé com Navegação */
+    footer.presentation-footer {
+      width: 100%;
+      padding: 1.25rem 2.5rem;
+      background: rgba(11, 13, 23, 0.45);
+      border-top: var(--glass-border);
+      backdrop-filter: var(--glass-blur);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 10;
+    }
+
+    .credits {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .credits strong {
+      color: var(--text-secondary);
+    }
+
+    .controls {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+    }
+
+    .slide-counter {
+      font-family: var(--font-title);
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      min-width: 60px;
+      text-align: center;
+    }
+
+    .btn-nav {
+      background: rgba(255, 255, 255, 0.02);
+      border: var(--glass-border);
+      color: var(--text-main);
+      padding: 0.6rem 1.25rem;
+      border-radius: 10px;
+      font-family: var(--font-body);
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .btn-nav:hover:not(:disabled) {
+      background: hsla(var(--hue), 30%, 16%, 0.35);
+      border-color: rgba(255, 255, 255, 0.2);
+      color: #fff;
+    }
+
+    .btn-nav:disabled {
+      opacity: 0.25;
+      cursor: not-allowed;
+    }
+
+    .progress-bar-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.03);
+      z-index: 100;
+    }
+
+    .progress-bar {
+      height: 100%;
+      background: var(--accent-gradient);
+      width: 0%;
+      transition: width 0.3s ease;
+    }
+
+    /* Cartões de Legado Político */
+    .legacy-box {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 100%;
+    }
+
+    .legacy-item {
+      background: rgba(255, 255, 255, 0.01);
+      border: var(--glass-border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .legacy-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 10px;
+      background: hsla(var(--hue), 80%, 65%, 0.1);
+      border: var(--glass-border);
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      flex-shrink: 0;
+    }
+
+    .legacy-text h4 {
+      font-family: var(--font-title);
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    .legacy-text p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    /* Responsividade */
+    @media (max-width: 1024px) {
+      .main-wrapper {
+        flex-direction: column;
+      }
+      .sidebar-nav {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        overflow-x: auto;
+        padding: 0.75rem 1rem;
+        border-right: none;
+        border-bottom: var(--glass-border);
+      }
+      .sidebar-title {
+        display: none;
+      }
+      .nav-item {
+        white-space: nowrap;
+        padding: 0.5rem 0.85rem;
+        font-size: 0.85rem;
+      }
+      .nav-num {
+        display: none;
+      }
+      .presentation-container {
+        padding: 1.5rem;
+      }
+      .slide {
+        padding: 2rem;
+        max-height: none;
+        height: auto;
+        position: relative;
+        display: none;
+      }
+      .slide.active {
+        display: flex;
+      }
+      .slide-body {
+        flex-direction: column;
+        gap: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Elementos de Fundo -->
+  <div class="blob-container">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+  <div class="bg-grid"></div>
+
+  <!-- Barra de Progresso Superior -->
+  <div class="progress-bar-container">
+    <div class="progress-bar" id="progressBar"></div>
+  </div>
+
+  <header>
+    <div class="header-logo">
+      <span class="material-symbols-rounded">layers</span>
+      <span>Prefeitura de Vinhedo</span>
+    </div>
+    <div class="header-badge">Fomento & Inovação</div>
+  </header>
+
+  <div class="main-wrapper">
+    <nav class="sidebar-nav">
+      <div class="sidebar-title">Roteiro</div>
+      <button class="nav-item active" data-slide="0">
+        <span class="nav-num">01</span>
+        <span>A Visão</span>
+      </button>
+      <button class="nav-item" data-slide="1">
+        <span class="nav-num">02</span>
+        <span>O Desafio</span>
+      </button>
+      <button class="nav-item" data-slide="2">
+        <span class="nav-num">03</span>
+        <span>A Resposta</span>
+      </button>
+      <button class="nav-item" data-slide="3">
+        <span class="nav-num">04</span>
+        <span>Ciência Prática</span>
+      </button>
+      <button class="nav-item" data-slide="4">
+        <span class="nav-num">05</span>
+        <span>Inclusão Real</span>
+      </button>
+      <button class="nav-item" data-slide="5">
+        <span class="nav-num">06</span>
+        <span>Formação Escolar</span>
+      </button>
+      <button class="nav-item" data-slide="6">
+        <span class="nav-num">07</span>
+        <span>Legado & Marca</span>
+      </button>
+      <button class="nav-item" data-slide="7">
+        <span class="nav-num">08</span>
+        <span>O Investimento</span>
+      </button>
+      <button class="nav-item" data-slide="8">
+        <span class="nav-num">09</span>
+        <span>Parceria</span>
+      </button>
+    </nav>
+
+    <div class="presentation-container">
+      
+      <!-- Slide 1: A Visão do Futuro (Monroe 1: Atenção) -->
+      <section class="slide active">
+        <div class="cover-layout">
+          <div class="cover-text">
+            <div class="cover-badge">
+              <span class="material-symbols-rounded">workspace_premium</span>
+              Pioneirismo em Gestão Pública
+            </div>
+            <h1 class="cover-title">Espaço Inova Vinhedo</h1>
+            <p class="cover-desc">A revolução da educação científica e acessibilidade na rede pública. O maior legado tecnológico para a juventude de Vinhedo/SP.</p>
+          </div>
+          <div class="cover-visual">
+            <div class="circle-glow"></div>
+            <div class="cover-img-box">
+              <img src="./capa_inova_vinhedo.png" alt="Espaço Inova Vinhedo - Laboratório Maker Municipal">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 2: O Desafio Real em Vinhedo (Monroe 2: Necessidade) -->
+      <section class="slide">
+        <div class="slide-header">
+          <div class="slide-category">Mapeamento de Necessidades</div>
+          <h2 class="slide-title">O Desafio da Educação e Inclusão em Vinhedo</h2>
+        </div>
+        <div class="slide-body">
+          <div class="text-column">
+            <p class="main-text">Embora Vinhedo tenha uma rede escolar de excelência, identificamos gargalos urgentes que demandam inovação rápida e verba carimbada:</p>
+            <ul class="bullet-list">
+              <li class="bullet-item">
+                <div class="bullet-icon">
+                  <span class="material-symbols-rounded">science</span>
+                </div>
+                <div class="bullet-content">
+                  <h4>Carência de Laboratórios Práticos</h4>
+                  <p>A maioria das escolas do município não possui estrutura física ou recursos para o ensino prático e experimental de física, química e matemática.</p>
+                </div>
+              </li>
+              <li class="bullet-item">
+                <div class="bullet-icon">
+                  <span class="material-symbols-rounded">accessibility_new</span>
+                </div>
+                <div class="bullet-content">
+                  <h4>Barreiras no Aprendizado Especial (AEE)</h4>
+                  <p>Mais de 250 alunos com autismo, dislexia ou limitações motoras necessitam de adaptadores de escrita e jogos táteis exclusivos, indisponíveis no varejo comum.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="visual-column">
+            <div class="metric-grid">
+              <div class="metric-box">
+                <span class="metric-val">39</span>
+                <span class="metric-label">Escolas na Rede</span>
+                <span class="metric-sub">Estrutura total a atingir</span>
+              </div>
+              <div class="metric-box">
+                <span class="metric-val">8.000+</span>
+                <span class="metric-label">Estudantes</span>
+                <span class="metric-sub">Impacto potencial geral</span>
+              </div>
+              <div class="metric-box">
+                <span class="metric-val">14</span>
+                <span class="metric-label">Escolas de Ens. Fund.</span>
+                <span class="metric-sub">Foco de laboratórios de ciências</span>
+              </div>
+              <div class="metric-box">
+                <span class="metric-val">18</span>
+                <span class="metric-label">Salas de Recursos (AEE)</span>
+                <span class="metric-sub">Foco de adaptadores e braille</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 3: A Resposta (Monroe 3: Satisfação) -->
+      <section class="slide">
+        <div class="slide-header">
+          <div class="slide-category">A Solução Proposta</div>
+          <h2 class="slide-title">A Resposta: Uma Fábrica Pública de Soluções</h2>
+        </div>
+        <div class="slide-body">
+          <div class="text-column">
+            <p class="main-text">O Espaço Inova Vinhedo será um **laboratório de fabricação digital (FabLab)** centralizado que transforma sobras industriais locais e insumos plásticos em recursos de alta tecnologia para as escolas.</p>
+            <ul class="bullet-list">
+              <li class="bullet-item">
+                <div class="bullet-icon">
+                  <span class="material-symbols-rounded">precision_manufacturing</span>
+                </div>
+                <div class="bullet-content">
+                  <h4>Fabricação Digital Centralizada</h4>
+                  <p>Uso de impressoras 3D, cortadoras a laser e robótica de bancada para produzir materiais didáticos e acionadores escolares sob demanda.</p>
+                </div>
+              </li>
+              <li class="bullet-item">
+                <div class="bullet-icon">
+                  <span class="material-symbols-rounded">price_check</span>
+                </div>
+                <div class="bullet-content">
+                  <h4>Custo Operacional Irrisório</h4>
+                  <p>Pivô da economia circular: retalhos de MDF e acrílico do distrito industrial de Vinhedo são convertidos em bens pedagógicos a custo de energia e desenho CAD.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="visual-column">
+            <div class="glass-card" style="text-align: center; display: flex; flex-direction: column; gap: 1rem;">
+              <span class="material-symbols-rounded" style="font-size: 3.5rem; color: var(--accent);">autorenew</span>
+              <h3 style="font-family: var(--font-title); font-size: 1.25rem;">Do Resíduo Industrial ao Kit Didático</h3>
+              <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.5;">O laboratório realiza a logística reversa de acrílicos e madeiras das fábricas parceiras de Vinhedo. Transformamos o descarte industrial em laboratórios de ciência portáteis.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 4: Kit Científico STEM (Monroe 4: Visualização) -->
+      <section class="slide">
+        <div class="slide-header">
+          <div class="slide-category">Linha de Produção Maker</div>
+          <h2 class="slide-title">Possibilidade 1: Kits Didáticos de Ciência</h2>
+        </div>
+        <div class="slide-body">
+          <div class="text-column">
+            <p class="main-text">Suprimos a ausência de laboratórios físicos de ciências enviando maletas científicas móveis para as escolas, repletas de materiais interativos.</p>
+            <ul class="bullet-list">
+              <li class="bullet-item">
+                <div class="bullet-icon">
+                  <span class="material-symbols-rounded">construction</span>
+                </div>
+                <div class="bullet-content">
+                  <h4>Kits de Ciências e Física Prática</h4>
+                  <p>Modelos funcionais de roldanas, engrenagens mecânicas, planos inclinados e kits experimentais de ótica e refração de luz confeccionados localmente.</p>
+                </div>
+              </li>
+              <li class="bullet-item">
+                <div class="bullet-icon">
+                  <span class="material-symbols-rounded">category</span>
+                </div>
+                <div class="bullet-content">
+                  <h4>Kits de Geometria e Biologia</h4>
+                  <p>Sólidos geométricos interativos desmontáveis e maquetes tridimensionais de anatomia e células biológicas para compreensão tátil de abstrações.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="visual-column">
+            <div class="glass-card" style="background: rgba(6, 182, 212, 0.02); border-color: rgba(6, 182, 212, 0.15);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                <span class="material-symbols-rounded" style="color: var(--color-teal); font-size: 2.2rem;">school</span>
+                <span style="font-size: 0.8rem; font-weight: 700; color: var(--color-teal); text-transform: uppercase;">Meta de Cobertura</span>
+              </div>
+              <h3 style="font-family: var(--font-title); font-size: 1.15rem; margin-bottom: 0.5rem;">Custo de Mercado vs Fabricação Inova</h3>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.4; margin-bottom: 1rem;">Um kit didático de polias comercial custa cerca de R$ 450,00 no atacado escolar. A produção no Espaço Inova, via laser e MDF de logística reversa, custa apenas R$ 35,00 por unidade.</p>
+              <div style="font-weight: 700; font-size: 1rem; color: var(--color-green); display: flex; align-items: center; gap: 0.25rem;">
+                <span class="material-symbols-rounded">check_circle</span> 100% das 14 escolas de Ensino Fundamental cobertas
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 5: Inclusão e Acessibilidade (Monroe 4: Visualização) -->
+      <section class="slide">
+        <div class="slide-header">
+          <div class="slide-category">Acessibilidade Pedagógica</div>
+          <h2 class="slide-title">Possibilidade 2: Inclusão Escolar Sem Barreiras</h2>
+        </div>
+        <div class="slide-body">
+          <div class="text-column">
+            <p class="main-text">Garantimos materiais pedagógicos acessíveis e adaptadores físicos para que alunos do Atendimento Educacional Especializado (AEE) tenham inclusão plena.</p>
+            <ul class="bullet-list">
+              <li class="bullet-item">
+                <div class="bullet-icon">
+                  <span class="material-symbols-rounded">edit_square</span>
+                </div>
+                <div class="bullet-content">
+                  <h4>Adaptadores de Escrita e Desenho</h4>
+                  <p>Engrossadores de lápis personalizados impressos em material flexível (TPU), desenhados ergonomicamente para a pegada de cada aluno.</p>
+                </div>
+              </li>
+              <li class="bullet-item">
+                <div class="bullet-icon">
+                  <span class="material-symbols-rounded">spellcheck</span>
+                </div>
+                <div class="bullet-content">
+                  <h4>Alfabetização Fonética e Tátil</h4>
+                  <p>Letras táteis em MDF, tabuleiros de comunicação alternativa e pranchas de sinalização escolar adaptadas em braille e relevo.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="visual-column">
+            <div class="glass-card" style="background: rgba(16, 185, 129, 0.02); border-color: rgba(16, 185, 129, 0.15);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                <span class="material-symbols-rounded" style="color: var(--color-green); font-size: 2.2rem;">diversity_3</span>
+                <span style="font-size: 0.8rem; font-weight: 700; color: var(--color-green); text-transform: uppercase;">Atendimento Especial</span>
+              </div>
+              <h3 style="font-family: var(--font-title); font-size: 1.15rem; margin-bottom: 0.5rem;">Impacto na Acessibilidade Local</h3>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.4; margin-bottom: 1rem;">O fomento direcionado permite equipar todas as 18 salas de recursos com kits estruturados de comunicação, além de fornecer adaptadores ergonômicos individuais sob medida.</p>
+              <div style="font-weight: 700; font-size: 1rem; color: var(--color-green); display: flex; align-items: center; gap: 0.25rem;">
+                <span class="material-symbols-rounded">check_circle</span> 250+ alunos do AEE beneficiados anualmente
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 6: Cidadania & Robótica (Monroe 4: Visualização) -->
+      <section class="slide">
+        <div class="slide-header">
+          <div class="slide-category">Qualificação e STEM</div>
+          <h2 class="slide-title">Possibilidade 3: Oficinas de Robótica e Codificação</h2>
+        </div>
+        <div class="slide-body">
+          <div class="text-column">
+            <p class="main-text">Capacitamos a juventude no contraturno escolar em conhecimentos de programação, eletrônica e robótica prática de baixo custo.</p>
+            <ul class="bullet-list">
+              <li class="bullet-item">
+                <div class="bullet-icon">
+                  <span class="material-symbols-rounded">memory</span>
+                </div>
+                <div class="bullet-content">
+                  <h4>Eletrônica com Arduino e ESP32</h4>
+                  <p>Aulas práticas de montagem de circuitos, sensores de presença e controle robótico integrado com componentes didáticos.</p>
+                </div>
+              </li>
+              <li class="bullet-item">
+                <div class="bullet-icon">
+                  <span class="material-symbols-rounded">model_training</span>
+                </div>
+                <div class="bullet-content">
+                  <h4>Oficina Jovem Inventor Inclusivo</h4>
+                  <p>Alunos das turmas regulares e alunos do AEE projetam em duplas soluções maker reais para problemas físicos de acessibilidade identificados em suas escolas.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="visual-column">
+            <div class="glass-card" style="background: rgba(244, 63, 94, 0.02); border-color: rgba(244, 63, 94, 0.15);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                <span class="material-symbols-rounded" style="color: var(--color-rose); font-size: 2.2rem;">insights</span>
+                <span style="font-size: 0.8rem; font-weight: 700; color: var(--color-rose); text-transform: uppercase;">Empregabilidade</span>
+              </div>
+              <h3 style="font-family: var(--font-title); font-size: 1.15rem; margin-bottom: 0.5rem;">Cidadania Científica e IDEB</h3>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.4; margin-bottom: 1rem;">A promoção da cultura maker e robótica desperta talentos científicos, prepara para o mercado da Indústria 4.0 e melhora a retenção escolar na rede pública de Vinhedo.</p>
+              <div style="font-weight: 700; font-size: 1rem; color: var(--color-green); display: flex; align-items: center; gap: 0.25rem;">
+                <span class="material-symbols-rounded">check_circle</span> Formação tecnológica e desenvolvimento social
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 7: Legado Político e Social (Monroe 4: Visualização) -->
+      <section class="slide">
+        <div class="slide-header">
+          <div class="slide-category">Visibilidade do Parceiro</div>
+          <h2 class="slide-title">O Legado Político e de Comunicação Social</h2>
+        </div>
+        <div class="slide-body">
+          <div class="text-column">
+            <p class="main-text">Investir verbas de emendas no Espaço Inova Vinhedo associa o nome do parlamentar a um projeto inovador e amplamente replicável:</p>
+            <div class="legacy-box">
+              <div class="legacy-item">
+                <div class="legacy-icon">
+                  <span class="material-symbols-rounded">qr_code_2</span>
+                </div>
+                <div class="legacy-text">
+                  <h4>Selo do Parceiro nos Kits Didáticos</h4>
+                  <p>Todos os kits de física e materiais pedagógicos distribuídos levarão gravação física (marca permanente a laser) indicando o apoio do deputado.</p>
+                </div>
+              </div>
+              <div class="legacy-item">
+                <div class="legacy-icon">
+                  <span class="material-symbols-rounded">campaign</span>
+                </div>
+                <div class="legacy-text">
+                  <h4>Visibilidade de Imprensa e Feira Municipal</h4>
+                  <p>Divulgação da inauguração, matérias de impacto nos jornais da região metropolitana de Campinas e destaque na Feira Anual de Inovação Pedagógica.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="visual-column">
+            <div class="glass-card" style="text-align: center; padding: 2.5rem; display: flex; flex-direction: column; gap: 1rem;">
+              <span class="material-symbols-rounded" style="font-size: 3.5rem; color: var(--color-gold);">star</span>
+              <h3 style="font-family: var(--font-title); font-size: 1.3rem;">Um Modelo Nacional de Educação</h3>
+              <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.5;">O repositório aberto de arquivos do Espaço Inova indicará os créditos da emenda fundadora de fomento. Qualquer município do Brasil que baixar as soluções de acessibilidade verá quem tornou o laboratório viável.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 8: O Impacto do Fomento (Monroe 5: Ação) -->
+      <section class="slide">
+        <div class="slide-header">
+          <div class="slide-category">Tiers de Investimento</div>
+          <h2 class="slide-title">Como a Sua Emenda Transforma a Rede</h2>
+        </div>
+        <div class="slide-body">
+          <div class="tabs-container">
+            <div class="tab-buttons">
+              <button class="tab-btn active" data-tier="bronze">
+                <span class="material-symbols-rounded">workspace_premium</span>
+                Bronze (R$ 50k)
+              </button>
+              <button class="tab-btn" data-tier="prata">
+                <span class="material-symbols-rounded">military_tech</span>
+                Prata (R$ 100k)
+              </button>
+              <button class="tab-btn" data-tier="ouro">
+                <span class="material-symbols-rounded">rewarded_ads</span>
+                Ouro (R$ 200k)
+              </button>
+            </div>
+            
+            <div class="tab-content-wrapper">
+              
+              <!-- Tab Bronze -->
+              <div class="tab-pane active" id="pane-bronze">
+                <div class="tier-card">
+                  <h3 style="font-family: var(--font-title); color: #fff;">Fomento Escolar Inicial</h3>
+                  <p style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.4;">Custeia o estoque de insumos de filamento e MDF por 12 meses + fabricação de adaptadores de escrita individuais e acionadores ergonômicos.</p>
+                  <ul class="tier-benefits">
+                    <li><span class="material-symbols-rounded">check_circle</span> 18 salas de recursos multifuncionais do AEE abastecidas.</li>
+                    <li><span class="material-symbols-rounded">check_circle</span> 250+ alunos do AEE atendidos com adaptadores individuais.</li>
+                    <li><span class="material-symbols-rounded">check_circle</span> Gravação do selo nas placas táteis.</li>
+                  </ul>
+                </div>
+                <div class="tier-details-card">
+                  <span class="metric-label">Valor do Fomento</span>
+                  <div class="tier-price">R$ 50.000</div>
+                  <span class="header-badge" style="background: rgba(251, 191, 36, 0.15); border-color: rgba(251, 191, 36, 0.3); color: #fbbf24;">Selo Acessibilidade</span>
+                </div>
+              </div>
+              
+              <!-- Tab Prata -->
+              <div class="tab-pane" id="pane-prata">
+                <div class="tier-card">
+                  <h3 style="font-family: var(--font-title); color: #fff;">Ciência Prática nas Escolas</h3>
+                  <p style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.4;">Permite adquirir insumos adicionais de engenharia e fabricar maletas portáteis de ciências e experimentos didáticos práticos.</p>
+                  <ul class="tier-benefits">
+                    <li><span class="material-symbols-rounded">check_circle</span> 50% das escolas de Ensino Fundamental (7 escolas) equipadas com laboratórios de ciências portáteis.</li>
+                    <li><span class="material-symbols-rounded">check_circle</span> Produção de 150 kits científicos funcionais.</li>
+                    <li><span class="material-symbols-rounded">check_circle</span> Placa física permanente na entrada do laboratório.</li>
+                  </ul>
+                </div>
+                <div class="tier-details-card">
+                  <span class="metric-label">Valor do Fomento</span>
+                  <div class="tier-price">R$ 100.000</div>
+                  <span class="header-badge" style="background: rgba(6, 182, 212, 0.15); border-color: rgba(6, 182, 212, 0.3); color: #06b6d4;">Parceiro da Ciência</span>
+                </div>
+              </div>
+              
+              <!-- Tab Ouro -->
+              <div class="tab-pane" id="pane-ouro">
+                <div class="tier-card">
+                  <h3 style="font-family: var(--font-title); color: #fff;">Cobertura Total e Robótica Comunitária</h3>
+                  <p style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.4;">Garanta a cobertura de 100% da rede e viabilize a abertura de oficinas noturnas de robótica e programação comunitária para jovens de Vinhedo.</p>
+                  <ul class="tier-benefits">
+                    <li><span class="material-symbols-rounded">check_circle</span> 100% das 14 escolas de Ensino Fundamental equipadas com laboratórios didáticos de ciências móveis.</li>
+                    <li><span class="material-symbols-rounded">check_circle</span> Abertura de oficinas de robótica no contraturno.</li>
+                    <li><span class="material-symbols-rounded">check_circle</span> Co-autoria da Feira de Inovação Pedagógica.</li>
+                  </ul>
+                </div>
+                <div class="tier-details-card">
+                  <span class="metric-label">Valor do Fomento</span>
+                  <div class="tier-price">R$ 200.000</div>
+                  <span class="header-badge" style="background: rgba(16, 185, 129, 0.15); border-color: rgba(16, 185, 129, 0.3); color: #10b981;">Campeão de Inovação</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 9: Parceria pelo Futuro (Monroe 5: Ação) -->
+      <section class="slide">
+        <div class="slide-header">
+          <div class="slide-category">Como Viabilizar</div>
+          <h2 class="slide-title">Viabilize o Espaço Inova Vinhedo</h2>
+        </div>
+        <div class="slide-body">
+          <div class="text-column">
+            <p class="main-text">O plano de implantação física e operacional do laboratório está estruturado pela Secretaria de Educação. Temos equipe própria e local definido.</p>
+            <p class="main-text" style="color: var(--text-muted); font-size: 0.95rem;">Para garantir a destinação da sua emenda de fomento com segurança jurídica e fiscal, providenciamos os seguintes marcos técnicos:</p>
+            <ul class="bullet-list">
+              <li class="bullet-item">
+                <div class="bullet-icon"><span class="material-symbols-rounded">description</span></div>
+                <div class="bullet-content">
+                  <h4>Minuta e Projeto de Lei Prontos</h4>
+                  <p>Disponibilizamos o projeto básico detalhado estruturado e a minuta de indicação legislativa para encaminhamento célere da emenda.</p>
+                </div>
+              </li>
+              <li class="bullet-item">
+                <div class="bullet-icon"><span class="material-symbols-rounded">verified</span></div>
+                <div class="bullet-content">
+                  <h4>Garantia de Destinação Carimbada</h4>
+                  <p>O repasse impositivo é blindado e vinculado à Ação Programática na LOA de Vinhedo, impedindo remanejamentos pelo caixa único municipal.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="visual-column">
+            <div class="glass-card" style="display: flex; flex-direction: column; gap: 1rem; border-color: rgba(99, 102, 241, 0.25);">
+              <h3 style="font-family: var(--font-title); color: #a5b4fc; font-size: 1.2rem;">Dados Técnicos para Destinação</h3>
+              <div style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; display: flex; flex-direction: column; gap: 0.5rem;">
+                <p><strong>Órgão Destinatário:</strong> Secretaria Municipal de Educação de Vinhedo/SP</p>
+                <p><strong>Programa LOA/PPA:</strong> Ação Inovação Tecnológica e Acessibilidade no AEE</p>
+                <p><strong>Equipe de Contato:</strong> gabinete.educacao@edu.vinhedo.sp.gov.br</p>
+              </div>
+              <div style="border-top: 1px solid rgba(255, 255, 255, 0.08); padding-top: 0.75rem; text-align: center; font-size: 0.8rem; color: var(--text-muted);">
+                Aprovado por Diego Gonçalves com suporte do Gemini 3.5
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <footer class="presentation-footer">
+    <div class="footer-content">
+      <div class="credits">
+        Prefeitura Municipal de Vinhedo/SP | Secretaria de Educação | <strong>2026</strong>
+      </div>
+      
+      <div class="controls">
+        <span class="slide-counter" id="slideIndicator">1 de 9</span>
+        <button class="btn-nav" id="btnPrev" disabled>
+          <span class="material-symbols-rounded" style="font-size: 1.1rem;">chevron_left</span>
+          Anterior
+        </button>
+        <button class="btn-nav" id="btnNext">
+          Próximo
+          <span class="material-symbols-rounded" style="font-size: 1.1rem;">chevron_right</span>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const slides = document.querySelectorAll('.slide');
+      const navItems = document.querySelectorAll('.nav-item');
+      const btnPrev = document.getElementById('btnPrev');
+      const btnNext = document.getElementById('btnNext');
+      const slideIndicator = document.getElementById('slideIndicator');
+      const progressBar = document.getElementById('progressBar');
+      let currentSlideIndex = 0;
+ 
+      function updateSlide(index) {
+        slides[currentSlideIndex].classList.remove('active');
+        navItems[currentSlideIndex].classList.remove('active');
+        
+        currentSlideIndex = index;
+        
+        slides[currentSlideIndex].classList.add('active');
+        navItems[currentSlideIndex].classList.add('active');
+
+        btnPrev.disabled = currentSlideIndex === 0;
+        btnNext.disabled = currentSlideIndex === slides.length - 1;
+
+        slideIndicator.textContent = `${currentSlideIndex + 1} de ${slides.length}`;
+
+        const progressPercent = ((currentSlideIndex + 1) / slides.length) * 100;
+        progressBar.style.width = `${progressPercent}%`;
+
+        // Scroll horizontal suave do menu no mobile
+        const activeNavItem = navItems[currentSlideIndex];
+        const navContainer = document.querySelector('.sidebar-nav');
+        if (window.innerWidth <= 1024) {
+          const scrollOffset = activeNavItem.offsetLeft - (navContainer.clientWidth / 2) + (activeNavItem.clientWidth / 2);
+          navContainer.scrollTo({ left: scrollOffset, behavior: 'smooth' });
+        }
+      }
+
+      navItems.forEach(item => {
+        item.addEventListener('click', () => {
+          const index = parseInt(item.getAttribute('data-slide'));
+          updateSlide(index);
+        });
+      });
+
+      btnPrev.addEventListener('click', () => {
+        if (currentSlideIndex > 0) {
+          updateSlide(currentSlideIndex - 1);
+        }
+      });
+
+      btnNext.addEventListener('click', () => {
+        if (currentSlideIndex < slides.length - 1) {
+          updateSlide(currentSlideIndex + 1);
+        }
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowRight' || e.key === ' ') {
+          if (currentSlideIndex < slides.length - 1) {
+            e.preventDefault();
+            updateSlide(currentSlideIndex + 1);
+          }
+        } else if (e.key === 'ArrowLeft') {
+          if (currentSlideIndex > 0) {
+            e.preventDefault();
+            updateSlide(currentSlideIndex - 1);
+          }
+        }
+      });
+
+      // Lógica de Tabs Interativas no Slide 8 (Tiers de Fomento)
+      const tabButtons = document.querySelectorAll('.tab-btn');
+      const tabPanes = document.querySelectorAll('.tab-pane');
+
+      tabButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const tier = btn.getAttribute('data-tier');
+          
+          tabButtons.forEach(b => b.classList.remove('active'));
+          tabPanes.forEach(p => p.classList.remove('active'));
+
+          btn.classList.add('active');
+          document.getElementById(`pane-${tier}`).classList.add('active');
+        });
+      });
+
+      // Inicialização da Barra de Progresso
+      updateSlide(0);
+    });
+  </script>
+</body>
+</html>

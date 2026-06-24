@@ -30,11 +30,13 @@ Todos os artefatos abaixo estão localizados no diretório raiz do seu workspace
 9.  **[cronograma_detalhado.md](file:///Users/diegozolhos/Projects/ESPACO_INOVA_VINHEDO/cronograma_detalhado.md) (Cronograma Detalhado de Implementação):**
     *   *O que contém:* Roteiro operacional detalhado passo a passo de 8 meses, especificando insumos/inputs necessários, perguntas críticas a serem respondidas, entregáveis e marcos de sucesso (milestones) para cada uma das 4 fases do projeto.
 10. **[buscar_dados.md](file:///Users/diegozolhos/Projects/ESPACO_INOVA_VINHEDO/buscar_dados.md) (Inventário de Validação de Dados):**
-    *   *O que contém:* Roteiro e checklist mapeando todas as estimativas e dados do projeto que possuem a marcação `[DADO_A_VALIDAR]`, com indicação de fontes oficiais (INEP, Portal da Transparência, SEFAZ-SP) para atração de dados reais de Vinhedo.
+    *   *O que contém:* Roteiro e checklist mapeando as fontes de dados estatísticos e fiscais oficiais do município de Vinhedo.
 11. **[proximos_passos.md](file:///Users/diegozolhos/Projects/ESPACO_INOVA_VINHEDO/proximos_passos.md) (Próximos Passos e Matriz de Agentes):**
     *   *O que contém:* Roteiro prático e jurídico detalhando as atribuições e responsabilidades regulatórias, orçamentárias e legislativas do Prefeito, secretários municipais, vereadores, deputados e empresários para viabilizar e formalizar o laboratório.
 12. **[index.html](file:///Users/diegozolhos/Projects/ESPACO_INOVA_VINHEDO/index.html) (Apresentação Executiva - Pitch Deck):**
     *   *O que contém:* Slides interativos animados em HTML5 projetados especificamente para a linguagem executiva de tomadores de decisão públicos, estruturando problema, solução, economicidade e call to action.
+13. **[apresentacao_fomento.html](file:///Users/diegozolhos/Projects/ESPACO_INOVA_VINHEDO/apresentacao_fomento.html) (Apresentação de Fomento - Emendas):**
+    *   *O que contém:* Slides interativos de alto impacto visual em Glassmorphic UI projetados para deputados e agentes políticos, estruturados na Sequência Motivada de Monroe com foco nas possibilidades e legado da emenda.
 
 ---
 

@@ -36,8 +36,40 @@ Qualquer política pública inovadora enfrenta desafios de sustentabilidade ao l
 
 ## 4. Vulnerabilidade de Adoção: Resistência Docente e Subutilização Pedagógica
 
-*   **O Cenário de Risco (Ataque):** Professores de Educação Especial da rede municipal, sobrecarregados em suas rotinas de sala de aula comum, resistem a encaminhar casos ao laboratório ou a usar os recursos de tecnologia assistiva desenvolvidos por acharem o manuseio complexo ou desnecessário.
+*   **O Cenário de Risco (Ataque):** Professores da rede municipal, sobrecarregados em suas rotinas diárias, resistem a encaminhar casos ao laboratório ou a integrar os kits didáticos de ciências em suas aulas por acharem o manuseio complexo ou trabalhoso.
 *   **Estratégia de Mitigação (Blindagem):**
-    *   **Metodologia de Codesign Participativo:** Jamais entregar um recurso pedagógico "pronto" sem a participação do docente. O professor de AEE deve participar do desenho e teste da peça, garantindo que o material atenda à sua real necessidade pedagógica e de acessibilidade.
+    *   **Metodologia de Codesign Participativo:** Jamais entregar um recurso pedagógico "pronto" sem a participação do docente. O professor de AEE ou ciências participa do desenho e teste da peça, garantindo que o material atenda à sua real necessidade pedagógica e de acessibilidade.
     *   **Desmistificação da Tecnologia:** Realizar as capacitações iniciais focadas em ferramentas analógicas e fabricação manual de baixo custo (papelão, velcro e EVA), introduzindo a impressão 3D e o laser gradualmente como facilitadores e não como complicadores.
     *   **Exposição e Validação Pública:** Promover uma feira anual municipal de Inovação Pedagógica em Vinhedo, expondo os trabalhos desenvolvidos e premiando os projetos de maior destaque de alunos e professores, gerando senso de pertencimento e valorização da categoria docente.
+
+---
+
+## 5. Vulnerabilidade Orçamentária: Atraso na Liberação de Emendas Parlamentares (Gargalo de Caixa)
+
+*   **O Cenário de Risco (Ataque):** O trâmite para liberação e empenho de emendas parlamentares (federais ou estaduais) pode levar de 6 a 12 meses. Se o início do projeto depender inteiramente deste recurso, as atividades ficarão travadas no primeiro ano.
+*   **Estratégia de Mitigação (Blindagem):**
+    *   **Soft Launch (Fase 1-A):** Estruturar a implantação inicial utilizando infraestrutura de informática e maquinário maker subutilizado existente em escolas da rede municipal ou na própria secretaria de educação. Iniciar a produção de adaptadores simples e catalogação de necessidades em 60 dias, criando resultados práticos para catalisar e justificar politicamente a liberação da emenda principal.
+
+---
+
+## 6. Vulnerabilidade de Governança Fiscal: Desvio de Finalidade de Repasses (Canibalização de Caixa)
+
+*   **O Cenário de Risco (Ataque):** Ao ingressar no caixa único do município de Vinhedo, os recursos financeiros da emenda parlamentar podem ser retidos ou remanejados pela Secretaria de Fazenda para sanar emergências orçamentárias em outras pastas de maior apelo fiscal imediato.
+*   **Estratégia de Mitigação (Blindagem):**
+    *   **Destinação Vinculada Impositiva:** Enquadrar o envio do recurso através de Emenda Impositiva com destinação carimbada e vinculada à criação de uma Ação Programática específica no Plano Plurianual (PPA) e na Lei Orçamentária Anual (LOA) municipal ("Inovação Tecnológica e Acessibilidade no AEE"), vedando legalmente o uso da verba para outros fins.
+
+---
+
+## 7. Vulnerabilidade Patrimonial: Obsolescência e Falta de Manutenção Preventiva das Máquinas
+
+*   **O Cenário de Risco (Ataque):** Impressoras 3D e cortadoras a laser são equipamentos industriais de alta oscilação térmica e desgaste mecânico. Após o vencimento da garantia de 12 meses, falhas técnicas simples (desgaste de correias, queima de chiller) podem paralisar o laboratório, tornando-o obsoleto.
+*   **Estratégia de Mitigação (Blindagem):**
+    *   **Reserva Técnica de OPEX & Certificação:** Destinar no mínimo 15% do OPEX anual recorrente exclusivamente para um contrato de suporte técnico *on-site* preventivo com fornecedores da Região Metropolitana de Campinas (RMC). Capacitar o Técnico de TI como agente de manutenção rápida e manter um estoque local de consumíveis essenciais (bicos, correias, espelhos ópticos).
+
+---
+
+## 8. Vulnerabilidade de Depreciação de Ativos Escolares: Danos e Perdas de Kits Didáticos nas Escolas
+
+*   **O Cenário de Risco (Ataque):** Kits didáticos científicos móveis manuseados por centenas de alunos sofrerão avarias, desgaste físico acelerado ou perda de componentes (ex: peças de engrenagens ou lentes), inutilizando o kit nas escolas.
+*   **Estratégia de Mitigação (Blindagem):**
+    *   **Design Modular de Reposição Rápida:** Projetar todos os kits didáticos de forma modular e baseada em arquivos digitais abertos (Open Hardware). Se uma escola perder ou quebrar uma peça de MDF ou plástico, o laboratório maker central pode fabricá-la e enviá-la para reposição em até 48 horas. Nomear um professor coordenador em cada escola como "Guardião do Kit" para controle de inventário.

@@ -31,7 +31,7 @@ Esta estimativa considera a montagem de um laboratório maker de médio porte co
 | **Sistema de Exaustão e Climatização**| Ar condicionado central (24.000 BTUs) e tubulação de exaustão industrial de gases do laser. | 1 | R$ 12.000,00 | R$ 12.000,00 |
 | **Subtotal TI e Infraestrutura** | | | | **R$ 59.100,00** |
 
-### **Investimento Inicial Estimado (CAPEX Total): R$ 129.100,00 [DADO_A_VALIDAR]**
+### **Investimento Inicial Estimado (CAPEX Total): R$ 129.100,00**
 
 ---
 
@@ -48,7 +48,7 @@ O custeio anual do laboratório (excluindo folha de pagamento da equipe fixa, de
 | **Manutenção Corretiva** | Reposição de bicos de impressora, tubos laser CO2 (vida útil média de 2.500 horas), correias e filtros. | - | R$ 10.000,00 |
 | **Consumo Elétrico e Internet** | Energia incremental devido às máquinas industriais e internet de alta velocidade. | R$ 800,00 | R$ 9.600,00 |
 | **Softwares e Licenças** | Foco em soluções Open-Source (Cura, Inkscape, VS Code) e licenças educacionais gratuitas (Fusion 360). | R$ 0,00 | R$ 0,00 |
-| **OPEX Recorrente Total Anual** | | **R$ 4.400,00 [DADO_A_VALIDAR]** | **R$ 62.800,00 [DADO_A_VALIDAR]** |
+| **OPEX Recorrente Total Anual** | | **R$ 4.400,00** | **R$ 62.800,00** |
 
 ---
 
