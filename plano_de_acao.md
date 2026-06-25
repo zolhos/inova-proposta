@@ -85,7 +85,7 @@ Estas oficinas são integradas ao plano de metas das salas de recursos multifunc
 ### 4.2. Projetos Maker de Longa Duração (3 a 6 meses)
 Iniciativas estruturadas voltadas para o desenvolvimento de recursos pedagógicos avançados e de adaptação escolar de uso cotidiano (não clínico):
 *   **Projeto Codesign de Objetos Auxiliares de Apoio Pedagógico:** Ciclo de desenvolvimento participativo focado em criar e adaptar objetos cotidianos de apoio escolar de baixo risco (como engrossadores de lápis adaptados, acionadores mecânicos de mesa, adaptadores ergonômicos de tesouras e suportes ajustáveis de leitura). Foca na autonomia em sala de aula de recursos multifuncionais do AEE. A fabricação de órteses terapêuticas sob medida (dispositivos de saúde) está alocada no Plano de Expansão (Fase 2, a partir do mês 13), após estruturação de convênio com a rede de saúde e indicação de responsável clínico.
-*   **Projeto Laboratórios de Ciências Descentralizados e Móveis:** Desenvolvimento de kits didáticos de física, química, biologia e matemática (ex.: conjuntos de engrenagens de MDF cortadas a laser, blocos geométricos tridimensionais, kits experimentais de polias e modelos táteis de células) para municiar as escolas municipais que não contam com laboratórios estruturados, fomentando a aprendizagem científica prática.
+*   **Projeto Laboratórios de Ciências Descentralizados e Móveis:** Desenvolvimento de kits didáticos de física, química, biologia e matemática (ex.: conjuntos de engrenagens de MDF cortadas a laser, blocos geométricos tridimensionais, kits experimentais de polias e modelos táteis de células) atuando como suporte pedagógico auxiliar para as escolas municipais enquanto laboratórios físicos permanentes são estruturados ou construídos, promovendo o engajamento científico inicial.
 *   **Projeto Jovem Inventor Inclusivo:** Voltado para estudantes do ensino fundamental II da rede pública. Alunos neurotípicos e alunos do AEE trabalham em duplas no laboratório ao longo de um semestre letivo. O objetivo é desafiá-los a identificar barreiras de acessibilidade na sua própria escola e projetar e construir uma solução maker para resolvê-las, desenvolvendo habilidades de empatia, design universal, modelagem 3D e eletrônica.
 
 ### 4.3. Projetos Associados de Alto Impacto
@@ -94,7 +94,34 @@ Iniciativas estruturadas voltadas para o desenvolvimento de recursos pedagógico
 
 ---
 
-## 5. Matriz de Governança e Papéis
+## 5. Ecossistema de Prototipagem de Software com IA (Custo Próximo a Zero)
+
+Além da fabricação digital de objetos físicos, o Espaço Inova Vinhedo institui um pilar de desenvolvimento ágil de softwares e aplicativos baseado em Inteligência Artificial Generativa e em metodologias de *Vibecoding* (programação por meio de linguagem natural). Esse ecossistema permite resolver demandas de automação administrativa e pedagógica de forma imediata e sem consumo de insumos físicos.
+
+### 5.1. Abordagem de Desenvolvimento Ágil e Baixa Fricção
+A equipe de TI alocada e os docentes utilizam assistentes de código e plataformas no-code/serverless (como chaves de API do Gemini, Cursor, IDX e Firebase) para projetar e testar micro-soluções digitais. Os protótipos são criados em ciclos de 15 dias letivos (Sprints).
+Para iniciar com baixa fricção e entregas rápidas na Fase 1-A (primeiros 30 dias), as seguintes micro-soluções serão colocadas em funcionamento:
+1.  **Sistema de Agendamento Inteligente:** Aplicação web para reserva de horários do laboratório maker e das salas de recursos multifuncionais do AEE pelas escolas.
+2.  **App de Inventário e Logística de Maletas Didáticas:** Sistema simples para gerenciar a distribuição, datas de empréstimo e condições dos Kits Didáticos Móveis de Ciências enviados às escolas.
+3.  **Registro de Evolução Individual (PEI Digital):** Prontuário pedagógico simplificado para preenchimento de relatos de autonomia escolar dos alunos atendidos, com gráficos de tempo de foco.
+4.  **Automações de Fluxo de Trabalho (Google Apps Script):** Robôs para disparo automático de avisos de devolução de materiais didáticos e lembretes de reuniões de HTPC via WhatsApp/e-mail para os professores.
+
+### 5.2. Programa de Oficinas Temáticas de Tecnologia e IA
+As oficinas unem tecnologia digital, pensamento computacional e letramento tecnológico, alinhadas às diretrizes da Base Nacional Comum Curricular (BNCC):
+*   **Oficina de Vibecoding e Soluções Cívicas (Alunos - Contraturno):** Estudantes do Ensino Fundamental II aprendem a conceber aplicações web utilizando chaves de API de IA generativa para resolver problemas do cotidiano escolar (ex: aplicativos de reciclagem de resíduos sólidos, calculadoras científicas interativas).
+    *   *Alinhamento com a BNCC:* Contribui diretamente para a **Competência Geral 5 (Cultura Digital)** e **Competência Geral 7 (Argumentação)**, ao capacitar o aluno a usar tecnologias para se comunicar, processar informações e criar soluções de forma ética e ativa.
+*   **Oficina de Letramento Digital e Produtividade com IA (Professores - HTPC):** Capacitação de professores da rede municipal na elaboração de prompts assertivos para o planejamento de aulas de ciências, geração de bancos de exercícios personalizados e otimização de relatórios escolares no contraturno.
+    *   *Mecanismo de Inclusão:* O foco é diminuir o trabalho mecânico dos docentes, dando-lhes mais tempo para o acompanhamento personalizado de alunos do AEE.
+
+### 5.3. Infraestrutura e Requisitos de Software
+Para colocar o ecossistema digital em funcionamento, são estabelecidos os seguintes requisitos:
+*   **Acesso à Internet Dedicada:** Rede corporativa com link dedicado para acesso às APIs de desenvolvimento em nuvem.
+*   **Chaves de API e Contas de Desenvolvimento:** Criação de uma conta institucional do município sob a *Google Cloud Organization* para obtenção das credenciais gratuitas ou de cunho educacional da API do Gemini.
+*   **Ambiente Local:** Configuração de IDEs livres (VS Code, IDX) e SDKs nos 4 terminais de trabalho do laboratório.
+
+---
+
+## 6. Matriz de Governança e Papéis
 
 O sucesso do projeto depende da integração transversal entre diferentes pastas da Prefeitura de Vinhedo:
 
@@ -130,18 +157,18 @@ O sucesso do projeto depende da integração transversal entre diferentes pastas
 
 ---
 
-## 6. Plano de Engajamento, Comunicação e Logística Reversa
+## 7. Plano de Engajamento, Comunicação e Logística Reversa
 
 A sustentabilidade do laboratório maker e a atração contínua de demandas reais dependem de um plano de comunicação ativa nas escolas e de uma articulação estruturada de fornecimento de insumos com o setor privado de Vinhedo.
 
-### 6.1. Campanhas de Comunicação e Engajamento na Rede Municipal
+### 7.1. Campanhas de Comunicação e Engajamento na Rede Municipal
 Para evitar a subutilização do espaço e garantir que os professores de AEE e de regência comum se apropriem do laboratório, institui-se o seguinte cronograma de difusão:
 *   **Visitas Obrigatórias de Planejamento (HTPCs):** Os Coordenadores Pedagógicos de todas as escolas municipais de Vinhedo farão visitas de planejamento integradas aos seus Horários de Trabalho Pedagógico Coletivo (HTPCs) ao menos uma vez por semestre no Espaço Inova, mapeando gargalos das salas de aula comuns que podem ser resolvidos pelo laboratório.
 *   **Workshops Itinerantes "Minuto Inclusivo":** A equipe do Espaço Inova realizará oficinas rápidas nas reuniões pedagógicas das escolas para expor e demonstrar o funcionamento prático de adaptadores ergonômicos e jogos pedagógicos táteis desenvolvidos no espaço.
 *   **Canal Direto de Demanda:** Criação de um formulário simplificado no portal da Secretaria de Educação para solicitação direta de pequenos recursos pedagógicos ou agendamento de casos complexos para codesign.
 
-### 6.2. Fluxo Jurídico e Operacional da Logística Reversa de Resíduos Industriais
-Para reduzir a dependência exclusiva de processos licitatórios de compras de materiais de consumo (MDF, acrílico, filamentos), o laboratório implementará um fluxo estruturado de logística reversa e aproveitamento de retalhos industriais das empresas locais (vinculado à Política Nacional de Resíduos Sólidos - Lei nº 12.305/2010):
+### 7.2. Fluxo Jurídico e Operacional da Logística Reversa de Insumos e Materiais
+Para otimizar os custos com insumos e promover a sustentabilidade, o laboratório maker combinará a aquisição de matérias-primas novas e acessíveis com um fluxo estruturado de aproveitamento e logística reversa de retalhos e sobras limpas de MDF e acrílico fornecidas pelas indústrias locais de Vinhedo, garantindo que os kits didáticos utilizem materiais duráveis e de qualidade adequada:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐

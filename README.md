@@ -80,7 +80,7 @@ Para evitar gastos diretos do orçamento ordinário da prefeitura, a implantaç�
 2.  **[FAPESP - Políticas Públicas](https://fapesp.br/politicaspublicas):** Recursos para parcerias acadêmicas com universidades da região (como UNICAMP e IFSP) voltadas à melhoria de serviços públicos municipais.
 3.  **[BNDES - Fundo Social](https://www.bndes.gov.br/wps/portal/site/home/onde-atuamos/social):** Linha de apoio a projetos de inclusão de pessoas com deficiência e estruturação de centros assistivos.
 4.  **Emendas Parlamentares:** Captação de recursos estaduais e federais impositivos focados em Educação Especial.
-5.  **Parcerias Corporativas:** Logística reversa com indústrias do distrito industrial de Vinhedo para obtenção de resíduos e retalhos de MDF e acrílico (insumos a custo zero).
+5.  **Parcerias Corporativas:** Abastecimento híbrido com aquisição de insumos novos e acessíveis combinado à logística reversa de retalhos de MDF e acrílico de indústrias parceiras.
 
 ---
 
